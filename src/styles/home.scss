@@ -48,12 +48,12 @@
    margin: 0 10px;
  }
  
- .menu ul .li {
+ .menu {
   display: inline-block;
   list-style-type: none;   
  }
  
- .menu ul .li a {
+ .menu  {
    color: rgb(112, 247, 213);
    text-decoration: none;
    display: block;
@@ -62,8 +62,7 @@
    text-transform: uppercase;     
  }
  
- .menu ul .li a:hover {
-   border-bottom: 1px solid #27b0c8;
+ .menu {
    width: 100%;  
  }
  

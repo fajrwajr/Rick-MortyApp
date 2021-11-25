@@ -12,14 +12,7 @@ export const Navba = () => {
 					<img src={rickandmorty} />
 				</div>
 				<Navbar className="menu">
-					<Container>
-						<Nav>
-							<Nav.Link href="#">About</Nav.Link>
-							<Nav.Link href="#">Characters</Nav.Link>
-							<Nav.Link href="#">Rick</Nav.Link>
-							<Nav.Link href="#">Morty</Nav.Link>
-						</Nav>
-					</Container>
+					<Container />
 				</Navbar>
 
 				<div className="text">
