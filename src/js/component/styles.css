@@ -31,7 +31,7 @@
  }
  
  .header {
- background: url('move.gif');
+    background: url('move.gif');
  background-position: center;
  background-size: cover;
  height: 100vh;
@@ -48,12 +48,12 @@
    margin: 0 10px;
  }
  
- .menu ul .li {
+ .menu ul li {
   display: inline-block;
   list-style-type: none;   
  }
  
- .menu ul .li a {
+ .menu ul li a {
    color: rgb(112, 247, 213);
    text-decoration: none;
    display: block;
@@ -62,7 +62,7 @@
    text-transform: uppercase;     
  }
  
- .menu ul .li a:hover {
+ .menu ul li a:hover {
    border-bottom: 1px solid #27b0c8;
    width: 100%;  
  }
