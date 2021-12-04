@@ -5,6 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { FrontView } from "./views/FrontView";
 import { SingleView } from "./views/SingleView";
 import injectContext from "./store/appContext";
+import { Favorites } from "./component/Favorites";
 
 import { Navba } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -23,6 +24,9 @@ const Layout = () => {
 					<Switch>
 						<Route exact path="/">
 							<FrontView />
+						</Route>
+						<Route exact path="/Favorites">
+							<Favorites />
 						</Route>
 						<Route exact path="/SingleView/:id">
 							<SingleView />

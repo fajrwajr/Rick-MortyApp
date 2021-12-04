@@ -19,7 +19,7 @@ export const FrontView = () => {
 				)}
 			{people && (
 				<div>
-					<Cards data={people} />
+					<Cards data={people.results} />
 				</div>
 			)}
 		</div>
