@@ -24,7 +24,7 @@ const Cards = props => {
 									<div>
 										<Link to={"/SingleView/" + item.id}>Tactical Information</Link>
 									</div>
-									{store.favorites.some(f => f.id === item.id) ? (
+									{store.favorites.find(f => f.id === item.id) ? (
 										<Button onClick={() => actions.delFavorite(item)}>Remove</Button>
 									) : (
 										<Button onClick={() => actions.addFavorite(item)}>Add</Button>
